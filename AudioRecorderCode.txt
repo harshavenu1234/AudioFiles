@@ -1,0 +1,9 @@
+C:\Users\acer>wsl
+harsha@DESKTOP-LT45GOP:~$ arecord harsha.wav
+Warning: Some sources (like microphones) may produce inaudiable results
+         with 8-bit sampling. Use '-f' argument to increase resolution
+         e.g. '-f S16_LE'.
+Recording WAVE 'harsha.wav' : Unsigned 8 bit, Rate 8000 Hz, Mono
+^CAborted by signal Interrupt...
+harsha@DESKTOP-LT45GOP:~$ aplay harsha.wav
+Playing WAVE 'harsha.wav' : Unsigned 8 bit, Rate 8000 Hz, Mono
